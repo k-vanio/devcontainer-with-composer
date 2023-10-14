@@ -1,0 +1,25 @@
+{
+	"name": "Golang",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/app",
+	"features": {},
+	"remoteUser": "vanio",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"formulahendry.terminal",
+				"EditorConfig.EditorConfig",
+				"golang.go",
+				"aldijav.golangwithdidi",
+				"streetsidesoftware.code-spell-checker",
+				"defaltd.go-coverage-viewer",
+				"soren.go-coverage-viewer",
+				"sankethdev.vscode-proto",
+				"plex.vscode-protolint",
+				"tscpp.proto-lang",
+				"GitHub.copilot"
+			]
+		}
+	}
+}

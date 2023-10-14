@@ -1,0 +1,9 @@
+version: "2"
+sql:
+  - engine: "mysql"
+    queries: "internal/infra/right/persists/queries/queries.sql"
+    schema: "internal/infra/right/persists/schema/schema.sql"
+    gen:
+      go:
+        package: "persists"
+        out: "internal/infra/right/persists"
